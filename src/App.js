@@ -14,10 +14,10 @@ function App() {
             <Navbar />
             <Router>
                 <Routes>
-                    <Route path="/" Component={Home} />
+                    <Route path="/portfolio" Component={Home} />
                     <Route path="/about" Component={About} />
                     <Route path="/skills" Component={Skills} />
-                    <Route path="/portfolio" Component={Portfolio} />
+                    <Route path="/portfolios" Component={Portfolio} />
                     <Route path="/contact" Component={Contact} />
                 </Routes>
             </Router>
