@@ -1,0 +1,244 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo {
+    color: white;
+    font-size: 35px;
+}
+.logo span {
+    color: #00aeff;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #00aeff;
+    transition: 0.1s;
+}
+.body-container {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+    top: 10%;
+}
+.home-content {
+    max-width: 600px;
+    color: white;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700px;
+    margin: -3px 0;
+    margin-bottom: 30px;
+}
+.home-content h1 span {
+    color: #00aeff;
+}
+.home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.home-content p a {
+    text-decoration: none;
+    color: #00aeff;
+}
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.about-content {
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+    color: white;
+}
+.about-content h2 {
+    font-size: 56px;
+}
+span {
+    color: #00aeff;
+}
+.about-content h4 {
+    font-size: 32px;
+}
+.about-content p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.skills-content {
+    color: white;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.heading-h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 33px;
+}
+.major-set {
+    display: flex;
+    justify-content: space-between;
+}
+.skill-set {
+    width: 600px;
+}
+
+.heading-h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.bar {
+    font-size: 23px;
+}
+.technical-bar {
+    text-align: center;
+}
+.technical-bar span {
+    font-size: 30px;
+}
+.dash {
+    font-size: 30px;
+    color: white;
+}
+.portfolio-content {
+    color: white;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+.card {
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.container {
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.container:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+.card1 > .container:after {
+    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+}
+.card2 > .container:after {
+    background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+}
+.card3 > .container:after {
+    background-image: linear-gradient(135deg, #ffab1d, #f8501c);
+}
+.details {
+    padding: 20px 10px;
+}
+.details > h3 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details > p {
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.links {
+    text-decoration: none;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.contact-logo {
+    width: 60px;
+    height: 60px;
+}
+.contact-info a {
+    text-decoration: none;
+    color: blue;
+}
+.end-line {
+    width: 50%;
+}
