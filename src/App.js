@@ -15,7 +15,10 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/Portfolio" Component={Home} />
-                    <Route path="/Portfolio/about" Component={About} />
+                    <Route
+                        path="https://m3ph1st023.github.io/about"
+                        Component={About}
+                    />
                     <Route path="/Portfolio/skills" Component={Skills} />
                     <Route path="/Portfolio/portfolios" Component={Portfolio} />
                     <Route path="/Portfolio/contact" Component={Contact} />
