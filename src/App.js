@@ -14,11 +14,11 @@ function App() {
             <Navbar />
             <Router>
                 <Routes>
-                    <Route path="/" Component={Home} />
-                    <Route path="/about" Component={About} />
-                    <Route path="/skills" Component={Skills} />
-                    <Route path="/portfolio" Component={Portfolio} />
-                    <Route path="/contact" Component={Contact} />
+                    <Route path="/Portfolio" Component={Home} />
+                    <Route path="/Portfolio/about" Component={About} />
+                    <Route path="/Portfolio/skills" Component={Skills} />
+                    <Route path="/Portfolio/portfolios" Component={Portfolio} />
+                    <Route path="/Portfolio/contact" Component={Contact} />
                 </Routes>
             </Router>
         </div>
